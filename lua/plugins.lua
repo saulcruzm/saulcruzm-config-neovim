@@ -13,4 +13,7 @@ return require('packer').startup(function()
   use 'kabouzeid/nvim-lspinstall'
   use 'nvim-treesitter/nvim-treesitter'
   use 'SmiteshP/nvim-gps'
+  use 'preservim/nerdtree'
+  use 'mfussenegger/nvim-dap'
+  use 'mfussenegger/nvim-dap-python'
 end)
